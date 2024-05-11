@@ -15,3 +15,5 @@ export type EventData<Event extends string, Map extends Record<string, unknown>>
  * An event map of given events that defined the parameters and return types for firing a certain event.
  */
 export type EventMap<Events extends string> = Partial<Record<Events, unknown>>
+
+//
